@@ -42,7 +42,7 @@ public class OrderController {
         return ResponseEntity.ok(orderService.getAllCustomerTotals());
     }
 
-    @GetMapping("best-restaurants")
+    @GetMapping("/best-restaurants")
     public ResponseEntity<List<RestaurantOrderCountDTO>> getBestRestaurant(){
         return ResponseEntity.ok(orderService.getAllRestaurantOrderCounts());
     }
