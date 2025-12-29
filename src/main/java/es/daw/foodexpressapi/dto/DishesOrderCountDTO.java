@@ -1,7 +1,7 @@
 package es.daw.foodexpressapi.dto;
 
 public record DishesOrderCountDTO(
-        String DishName,
+        String dishName,
         Long totalOrders
 
 ) {}
